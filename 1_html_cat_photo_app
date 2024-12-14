@@ -17,14 +17,14 @@
       <section>
         <h2>Cat Lists</h2>
         <h3>Things cats love:</h3>
-        <ul>
-          <li>cat nip</li>
+        <ul> <!–– note: ul = unordered list i.e. bullet points, not numbered list -->
+          <li>cat nip</li> <!–– note: li = list item -->
           <li>laser pointers</li>
           <li>lasagna</li>
         </ul>
         <figure>
           <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="A slice of lasagna on a plate.">
-          <figcaption>Cats <em>love</em> lasagna.</figcaption>  
+          <figcaption>Cats <em>love</em> lasagna.</figcaption>  <!–– note: em is used to emphasize (bold) text -->
         </figure>
         <h3>Top 3 things cats hate:</h3>
         <ol>
@@ -39,7 +39,7 @@
       </section>
       <section>
         <h2>Cat Form</h2>
-        <form action="https://freecatphotoapp.com/submit-cat-photo">
+        <form action="https://freecatphotoapp.com/submit-cat-photo"> 
           <fieldset>
             <legend>Is your cat an indoor or outdoor cat?</legend>
             <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label>
